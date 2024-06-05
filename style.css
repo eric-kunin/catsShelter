@@ -1,7 +1,11 @@
-.bordered > div{
+/* .bordered > div{
     height:50px;
     font-size: xx-large;
     text-align: center;
     border:1px solid black;
     margin-bottom:20px;
+} */
+body {
+    background-color: cadetblue;
+    text-align: center;
 }
