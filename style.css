@@ -5,10 +5,17 @@
     border:1px solid black;
     margin-bottom:20px;
 } */
-body {
-    background-color: cadetblue;
+html,body {
+    /* background-color: cadetblue; */
+    height:100%;
+    margin:0;
+    padding:0;
     text-align: center;
-    height: 100%;
-    background-color: red; /* For browsers that do not support gradients */
     background-image: linear-gradient(red, yellow);
+    background-repeat: no-repeat;
+}
+img {
+    width: 700px;
+    height: 700px;
+    border-radius: 50px;
 }
